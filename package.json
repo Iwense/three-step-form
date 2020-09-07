@@ -1,0 +1,28 @@
+{
+  "name": "enter_form_with_validation",
+  "version": "1.0.0",
+  "description": "form,validation,stepform",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --node production",
+    "serve": "webpack-dev-server --node development"
+  },
+  "keywords": [
+    "form",
+    "stepform",
+    "form",
+    "validation"
+  ],
+  "author": "Grishin Alexander",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-server": "^0.1.2"
+  }
+}
